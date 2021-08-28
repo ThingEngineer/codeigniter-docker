@@ -42,7 +42,7 @@ services:
       - php_fpm
       - mysql
     ports:
-      - "80:80"
+      - "8088:80"
 
 networks:
   tempest:
